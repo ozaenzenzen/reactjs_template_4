@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         themeblack: "#202020",
-        themeblack: "#f50e32",
+        themered: "#f50e32",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
