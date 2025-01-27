@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import hero from "../assets/hero.png";
+import hero from "../assets/hero2.png";
 import design from "../assets/design.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
