@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaSearchengin } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineDesignServices } from "react-icons/md";
@@ -8,13 +8,13 @@ import "aos/dist/aos.css";
 import ServicesItemDetailComponent from "./components/ServicesItemDetailComponent";
 
 const Services = () => {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 800,
-  //     delay: 200,
-  //     once: true,
-  //   });
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      delay: 200,
+      once: true,
+    });
+  }, []);
 
   return (
     <div
