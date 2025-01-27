@@ -39,7 +39,9 @@ const Hero = () => {
       {/* Image Section */}
       <div data-aos="zoom-in" data-aos-delay="600" className="lg:w-2/5 w-full relative">
         <div className="bg-[#2f2f2f] lg:w-[400px] w-full lg:h-[500px] h-[400px] rounded-lg absolute top-[30px] -left-[30px]">
-          <img
+          
+        </div>
+        <img
             src={hero}
             alt="hero image"
             className="lg:w-[520px] w-full lg:h-[500px] h-[450px] rounded-lg relative z-30"
@@ -49,7 +51,6 @@ const Hero = () => {
             alt=""
             className="absolute -top-7 -right-7 rounded-lg z-10"
           />
-        </div>
       </div>
     </div>
   );
